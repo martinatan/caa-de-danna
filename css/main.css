@@ -1,7 +1,43 @@
 /******
-CSS
+Global Styling
 ******/
 
-p {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+/* @font-family {
+  font-family: "Glacial-Indifference";
+  src: url("assets/fonts/GlacialIndifference-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-family {
+  font-family: "Glacial-Indifference";
+  src: url("assets/fonts/GlacialIndifference-Italic.otf") format("opentype");
+  font-style: italic;
+} */
+
+/* @font-family {
+  font-family: "Glacial Indifference";
+  src: url("assets/fonts/GlacialIndifference-Regular.otf") format("opentype");
+  font-weight: normal;
+} */
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #FFCFCB;
+  color: #47525E;
+
+  /* margin: 60px auto;
+  padding: 0; */
+  height: 100%;
+  width: 90%;
+  font-size: 100%;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  color: #F95F62;
+  font-weight: 900;
 }

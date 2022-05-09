@@ -1,0 +1,69 @@
+/******
+Styling for index.html
+******/
+
+header {
+    width: 100%;
+    display: block;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+#hogar {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+#hogar-shape {
+    border: 7px solid #F95F62;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    position: relative;
+    background-color: #FFE8E6;
+
+}
+
+
+#hogar-contenedor {
+    position: absolute;
+    left: 15px;
+
+}
+
+#nombre {
+    font-size: 2em;
+    position: absolute;
+    background-color: red;
+
+}
+
+#nombre-shape {
+    background-color: #fff;
+    position: relative;
+}
+
+#nombre-contenedor {
+    position: absolute;
+    left: 150px;
+
+}
+
+.tutorial-thumbnail {
+    margin: 20px;
+    padding; 20px;
+    background-color: #EFDAED;
+    border-radius: 25px;
+}
+/* 
+#ducharse {
+
+}
+
+#cepillarse-los-dientes {
+
+} */
+
