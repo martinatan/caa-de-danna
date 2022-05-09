@@ -1,0 +1,87 @@
+/******
+Styling for index.html
+******/
+
+header {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#hogar {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+#hogar-shape {
+    border: 7px solid #F95F62;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    position: relative;
+    background-color: #FFE8E6;
+
+}
+
+
+#hogar-contenedor {
+    position: absolute;
+    left: 25px;
+    z-index: 1;
+}
+
+#nombre {
+    font-size: 2em;
+    position: absolute;
+    margin: auto;
+    left: 60px;
+    top: 5px;
+}
+
+#nombre-shape {
+    background-color: #fff;
+    position: relative;
+}
+
+#nombre-contenedor {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    background-color: white;
+    width: 225px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.tutorial-thumbnail {
+    margin: 15px;
+    padding: 15px;
+    background-color: #EFDAED;
+    border-radius: 25px;
+    text-align: center;
+    width: 90%;
+}
+
+#ducharse img {
+    width: 70%;
+    height: auto;
+}
+
+#cepillarse-los-dientes img {
+    width: 70%;
+    height: auto;
+}
+
