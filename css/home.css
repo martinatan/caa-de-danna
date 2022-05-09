@@ -4,8 +4,10 @@ Styling for index.html
 
 header {
     width: 100%;
-    display: block;
-    padding-bottom: 15px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
 }
 
@@ -30,15 +32,16 @@ header {
 
 #hogar-contenedor {
     position: absolute;
-    left: 15px;
-
+    left: 25px;
+    z-index: 1;
 }
 
 #nombre {
     font-size: 2em;
     position: absolute;
-    background-color: red;
-
+    margin: auto;
+    left: 60px;
+    top: 5px;
 }
 
 #nombre-shape {
@@ -48,22 +51,37 @@ header {
 
 #nombre-contenedor {
     position: absolute;
-    left: 150px;
+    left: 100px;
+    top: 50px;
+    background-color: white;
+    width: 225px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+    margin: auto;
 
 }
 
 .tutorial-thumbnail {
-    margin: 20px;
-    padding; 20px;
+    margin: 15px;
+    padding: 15px;
     background-color: #EFDAED;
     border-radius: 25px;
-}
-/* 
-#ducharse {
-
+    text-align: center;
+    width: 90%;
 }
 
-#cepillarse-los-dientes {
+#ducharse img {
+    width: 70%;
+    height: auto;
+}
 
-} */
+#cepillarse-los-dientes img {
+    width: 70%;
+    height: auto;
+}
 
