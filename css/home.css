@@ -4,11 +4,16 @@ Styling for index.html
 
 header {
     width: 100%;
-    height: 150px;
+    height: 125px;
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
     position: relative;
+    text-align: center;
+}
+
+#header-wrap {
+    width: 100%;
+    margin: auto;
 }
 
 #hogar {
@@ -26,13 +31,11 @@ header {
     height: 115px;
     position: relative;
     background-color: #FFE8E6;
-
 }
-
 
 #hogar-contenedor {
     position: absolute;
-    left: 25px;
+    left: 15px;
     z-index: 1;
 }
 
@@ -40,7 +43,7 @@ header {
     font-size: 2em;
     position: absolute;
     margin: auto;
-    left: 60px;
+    left: 70px;
     top: 5px;
 }
 
@@ -51,7 +54,7 @@ header {
 
 #nombre-contenedor {
     position: absolute;
-    left: 100px;
+    left: 90px;
     top: 50px;
     background-color: white;
     width: 225px;
@@ -63,12 +66,11 @@ main {
     width: 100%;
     text-align: center;
     margin: auto;
-
 }
 
 .tutorial-thumbnail {
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
     background-color: #EFDAED;
     border-radius: 25px;
     text-align: center;
@@ -84,4 +86,3 @@ main {
     width: 70%;
     height: auto;
 }
-
