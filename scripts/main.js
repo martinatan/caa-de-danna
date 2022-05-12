@@ -16,9 +16,21 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".danna-audio").addEventListener("click", dannaAudio);
 
 });
+/*
+var audio = new Audio("aplausos.wav");
+/*
+document.onclick = playMusicaplauso()() {
+  audio.play();
+}
+*/
+
+function playMusicaplauso(){
+  var music = new Audio('aplausos.wav');
+  music.play();
+  }
 
 
-/* */
+/* 
 function mamaAudio() {
     console.log("you clicked the mama button");
 }
@@ -30,3 +42,4 @@ function emilyAudio() {
 function dannaAudio() {
     console.log("you clicked the danna button");
 }
+*/
